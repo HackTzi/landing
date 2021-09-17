@@ -1,6 +1,6 @@
 <h1 align="center">👩‍💻 Hacktzi Landing</h1>
 <p align="center">
-    <img src="preview-python.png" alt="Codely VsCode Theme">
+    <img src="assets/images/preview.jpg" alt="Codely VsCode Theme">
     <small><b>Happy Hacking!</b></small><br>
     A beautiful lading page for <b>Hacktzi Comunnity</b>
 </p>
