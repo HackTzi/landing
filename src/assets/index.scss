@@ -1,0 +1,21 @@
+@import './global.scss';
+
+body {  
+  background: linear-gradient(138.41deg, #12C2E9 6.46%, #C471ED 41.47%, #F64F59 76.49%);    
+}
+
+.info{
+  text-align: center;
+  font-size: 1.4rem;
+}
+#root{
+  
+  overflow: hidden;
+  @media(min-width: 1024px){
+    height: 100vh;
+   /*  display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr; 
+    height: 94vh; */
+}
+}

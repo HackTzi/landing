@@ -1,0 +1,51 @@
+.socialbutton{
+    width: 250px;
+    height: 74px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2px;
+    background-color: rgba(245, 245, 245, 1);
+    color:black;
+    border-radius: 6px;
+    margin:8px 0px;
+    @media(min-width: 900px){
+        width: 180px;
+        padding:8px;
+    }
+    @media(min-width: 1100px){
+        width: 230px;
+    }
+    @media(min-width: 1440px){
+        width: 250px;
+    }
+    &:hover{
+        transform: scale(1.05);
+        animation-duration: 2s;
+        box-shadow: -1px 6px 10px 4px #393942;
+        cursor: pointer;
+    }
+    &__icon{
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        padding:2px 6px 0 0;
+    }
+    &__content{
+        border-left: 1px solid rgba(32, 58, 67, 0.3);
+        padding:2px 0 0 6px;
+        text-align: center;
+        &--title{
+            font-size: 24px;
+            text-transform: uppercase;
+            color: rgba(32, 58, 67, 1);
+        }
+        &--description{
+            font-size: 10px;
+            text-transform: uppercase;
+            color: rgba(32, 58, 67, 0.6);
+        }
+    }
+
+}

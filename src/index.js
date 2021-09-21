@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './assets/index.scss';
+/* import App from './App';
+ */import reportWebVitals from './reportWebVitals';
+ import Landing from './pages/Landing/'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div className="page">
+    <Landing />
+    <p className="info">From latam to the world</p>
+  </div>,
   document.getElementById('root')
 );
 
