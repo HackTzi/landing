@@ -11,9 +11,10 @@ function About() {
             <div className="about__newsletter">
                 <h2>NEWSLETTER</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat aliquet donec lobortis. Massa pulvinar neque morbi felis gravida et nunc venenatis ac.</p>
+                <span>Email</span>
                 <div className="about__newsletter--input">
                     <input type="text" placeholder="hello@world.com"/>
-                    <button>Send</button>
+                    <button>Enviar</button>
                 </div>
             </div>            
         </div>

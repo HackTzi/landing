@@ -1,5 +1,5 @@
 import React from 'react'
-import Header  from '../../components/Header/'
+import Header from '../../components/Header/'
 import About from '../../components/About/'
 import CallToAction from '../../components/CallToAction'
 import SocialButton from '../../components/SocialButtton'
@@ -14,36 +14,35 @@ function landing() {
     return (
         <div className="landing">
             <section className="landing__header">
-                <Header/>                
+                <Header />
             </section>
-            
             <section className="landing__content">
-                <About/>
+                <About />
+                <div className="landing__img">
+                    <CallToAction />
+                </div>
             </section>
-
-            <section className="landing__img">
-                <CallToAction />
-            </section>
-
             <section className="landing__footer">
-                    <SocialButton
+                <SocialButton
                     icon={youtubeIcon}
-                    description="YouTube.com/hacktzi"
-                    ></SocialButton>
-                    <SocialButton
-                    icon={githubIcon}
+                    description="youTube.com/hacktzi"
+                ></SocialButton>
+                <SocialButton
+                    href="https://twitter.com/hacktzi"
+                    icon={twitterIcon}
                     description="twitter.com/hacktzi"
-                    ></SocialButton>
-                    <SocialButton
+                ></SocialButton>
+                <SocialButton
+                    href="https://instagram.com/hacktzi"
                     icon={instagramIcon}
                     description="instagram.com/hacktzi"
-                    ></SocialButton>
-                    <SocialButton
-                    icon={twitterIcon}
+                ></SocialButton>
+                <SocialButton
+                    href="https://github.com/hacktzi"
+                    icon={githubIcon}
                     description="github.com/hacktzi"
-                    ></SocialButton>
+                ></SocialButton>
             </section>
-            
         </div>
     )
 }

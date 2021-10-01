@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/index.scss';
-/* import App from './App';
- */import reportWebVitals from './reportWebVitals';
- import Landing from './pages/Landing/'
+import reportWebVitals from './reportWebVitals';
+import Landing from './pages/Landing/'
 
 ReactDOM.render(
   <div className="page">

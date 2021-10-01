@@ -3,7 +3,7 @@ import './style.scss'
 
 function SocialButton(props) {
     return (
-        <div className="socialbutton">
+        <a className="socialbutton" href={props.href || "#"}>
             <div className="socialbutton__icon">
                 <img src={props.icon} alt="icon" />
             </div>
@@ -15,7 +15,7 @@ function SocialButton(props) {
                     {props.description}
                 </div>
             </div>
-        </div>
+        </a>
     )
 }
 
