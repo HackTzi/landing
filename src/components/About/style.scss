@@ -1,0 +1,127 @@
+@import '../../assets/global.scss';
+
+
+.about {
+    margin: 12px 0px;
+    width: 100%;
+    max-width: 562px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+
+    &__content {
+        h1 {
+            font-size: 30px;
+            font-weight: 1.35;
+            margin-bottom: 8px;
+            text-align: center;
+            font-weight: 600;
+
+            @media (min-width: 1024px) {
+                font-size: 40px;
+                text-align: start;
+            }
+        }
+
+        p {
+            max-width: 510px;
+            margin-bottom: 30px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 150%;
+            letter-spacing: -0.005em;
+
+            @media (min-width: 1024px) {
+                margin-bottom: 48px;
+            }
+        }
+    }
+
+    
+    &__newsletter {
+        padding: 22px 25px 31px;
+        background-color: var(--blanco);
+        color: var(--negro);
+        border-radius: 6.8px;
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+        @media(min-width: 1024px) {
+            max-width: 560px;
+        }
+        
+        h2 {
+            font-size: 27px;
+        }
+
+        span {
+            font-size: 16px;
+            line-height: 150%;
+            font-weight: 500;
+        }
+        
+        p {
+            margin-bottom: 27px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.5;
+
+            @media(min-width: 1024px)  {
+                max-width: 474px;
+            }
+        }
+
+        &--input {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 48px;
+            gap: 10px;
+
+            @media (min-width: 900px) {
+                flex-direction: row;
+                justify-content: start;
+            }
+
+            input {
+                font-size: 16px;
+                padding: 4px;
+                padding-left: 12px;
+                border-radius: 8px;
+                border: none;
+                background-color: #E2E2E2;
+
+                @media (min-width: 900px) {
+                    width: 426px;
+                    height: 100%;
+                }
+            }
+
+            button {
+                font-size: 16px;
+                padding: 4px;
+                max-width: 100%;
+                background-color: rgba(196, 113, 237, 1);
+                border: 4px solid #D99DF7;
+                color: var(--blanco);
+                border-radius: 8px;
+                font-weight: 600;
+                cursor: pointer;
+                padding: 12px 20px;
+
+                @media(min-width: 1024px) {
+                    height: 100%;
+                }
+
+                &:hover {
+                    background-color: #c471edcf;
+                }
+
+            }
+        }
+    }
+}

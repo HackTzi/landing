@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-principal);
+    color: var(--blanco);
+}
+
+:root {
+    --font-principal: "Inter", sans-serif;
+    --blanco: #F5F5F5;
+    --negro: #203A43;
+    --color-principal: #12C2E9;
+    --rojo: #F64F59;
+    --tablet: 500px;
+    --bp-md: 850px;
+    --bp-xl: 1080px;
+}

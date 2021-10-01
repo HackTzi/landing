@@ -1,0 +1,32 @@
+@import './global.scss';
+
+body {
+  background: linear-gradient(138.41deg, #12C2E9 6.46%, #C471ED 41.47%, #F64F59 76.49%);
+  background-repeat: no-repeat;
+
+  &::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+      background-color: #aaa;
+      &:hover {
+          background-color: #bbb;
+      }
+  }
+  
+  &::-webkit-scrollbar-track {
+      background: #ddd;
+  }
+}
+
+.info {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#root {
+  padding: 0 35px 20px;
+}

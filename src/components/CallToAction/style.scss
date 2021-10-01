@@ -1,0 +1,66 @@
+@import '../../assets/global.scss';
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 52px;
+
+    &__img {
+        width: 100%;
+        max-width: 457px;
+
+        img {
+            width: 100%;
+        }
+
+        &--btns {
+            position: relative;
+            bottom: 135px;
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                text-align: center;
+                text-decoration: none;
+                padding: 13px 45px;
+                font-size: 1.6rem;
+                border-radius: 35px;
+                font-weight: 600;
+                text-transform: uppercase;
+                border: none;
+                transition: 400ms ease-in-out;
+                font-family: "IBM Plex Sans", sans-serif;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: translateY(-10px) scale(1.1);
+                }
+
+                &:nth-child(1) {
+                    background: radial-gradient(78.16% 1071.25% at 90.23% 29.26%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #F64F59;
+                    color: var(--blanco);
+                }
+
+                &:nth-child(2) {
+                    background: radial-gradient(81.9% 1122.45% at 11.49% 39.89%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #12C2E9;
+                    color: var(--negro);
+                }
+            }
+        }
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 26px;
+        color: var(--blanco);
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    &__text span {
+        font-family: monospace;
+        color: greenyellow;
+    }
+}
