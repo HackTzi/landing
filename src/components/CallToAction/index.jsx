@@ -8,8 +8,8 @@ function CallToAction() {
             <div className="calltoaction__img">
                 <img src={imageMorfeo} alt="morfeo" className="calltoaction__img" />
                 <div className="calltoaction__img--btns">
-                    <a href="https://discord.gg/JgtTu2fpsW" target="_blank">Discord</a>
-                    <a href="https://t.me/HackTzi" target="_blank">Telegram</a>
+                    <a href="https://discord.gg/JgtTu2fpsW" target="_blank" rel="noreferrer">Discord</a>
+                    <a href="https://t.me/HackTzi" target="_blank" rel="noreferrer">Telegram</a>
                 </div>
             </div>
             <div className="calltoaction__text">
