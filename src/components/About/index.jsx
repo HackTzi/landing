@@ -10,13 +10,13 @@ function About() {
             </div>
             <div className="about__newsletter">
                 <h2>NEWSLETTER</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat aliquet donec lobortis. Massa pulvinar neque morbi felis gravida et nunc venenatis ac.</p>
+                <p>Las novedades de HackTzi que no te puedes perder directamente en tu correo electrónico. Para registrarse, ingresa tu correo electrónico aquí.</p>
                 <span>Email</span>
                 <div className="about__newsletter--input">
-                    <input type="text" placeholder="hello@world.com"/>
+                    <input type="text" placeholder="hello@world.com" />
                     <button>Enviar</button>
                 </div>
-            </div>            
+            </div>
         </div>
     )
 }
